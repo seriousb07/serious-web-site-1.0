@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign In Form</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            background-image: url(sbblur.jpg);
+            font-family: Arial, sans-serif;
+
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+        }
+
+        table {
+            margin: 0 auto;
+            border-radius: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            opacity: 0.82;
+        }
+
+        table label {
+            font-weight: bold;
+        }
+
+        table tr {
+            border: 1px solid #ccc;
+        }
+
+        table td {
+            padding: 10px;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="tel"],
+        select {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: black;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>REGISTRATION FORM</h1>
+    <form>
+        <table>
+            <tr>
+                <td><label for="Fullname">Enter Full Name:</label></td>
+                <td><input type="text" name="Fullname" id="Fullname"></td>
+            </tr>
+            <tr>
+                <td><label for="username">Enter Your username:</label></td>
+                <td><input type="text" name="username" id="username"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Enter Password:</label></td>
+                <td><input type="password" name="password" id="password"></td>
+            </tr>
+            <tr>
+                <td><label for="mobileno">Enter Your Mobile No:</label></td>
+                <td><input type="tel" name="mobileno" id="mobileno"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender:</label></td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="location">Enter Location:</label></td>
+                <td>
+                    <select name="location" id="location">
+                        <option value="other">Other</option>
+                        <option value="Shevgaon">Shevgaon</option>
+                        <option value="kpg">Kopargaon</option>
+                        <option value="pune">pune</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Sign In"></td>
+            </tr>
+        </table>
+        <br>
+<br><br><br><br><br><br><br><br><br>
+        <marquee height="40px" loop="" bgcolor=#ccc><h3>THIS CODE IS CREATED BY _SERIOUS_ THANK YOU!</h3></marquee> 
+    </form>
+</body>
+</html>
